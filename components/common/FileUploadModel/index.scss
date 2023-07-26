@@ -1,0 +1,22 @@
+.image-upload-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    flex-direction: column;
+    color: pink;
+    label {
+      border: 1px solid #212121;
+      padding: 10px;
+      cursor: pointer;
+      font-family: system-ui;
+    }
+    .upload-btn{
+      color: blue;
+      font-family: 'Courier New', Courier, monospace;
+    }
+  
+    .progress-bar {
+      padding: 20px;
+    }
+  }

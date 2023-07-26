@@ -1,0 +1,35 @@
+.disclaimer {
+    font-family:'Courier New', Courier, monospace;
+    color: black;
+    background-color: whitesmoke;
+  }
+  
+
+  
+  .disclaimer-content {
+    padding: 20px;
+    line-height: 1.5;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  @media (max-width: 767px) {
+    }
+  
+   
+  
+    .disclaimer-content {
+      padding: 10px;
+      font-family: 'Courier New', Courier, monospace;
+    }
+  
+  
+  @media (min-width: 768px) {
+  
+  
+  
+    .disclaimer-content {
+      padding: 20px;
+      font-family: 'Courier New', Courier, monospace;
+    }
+  }
+  

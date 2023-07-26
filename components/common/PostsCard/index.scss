@@ -1,0 +1,321 @@
+
+.posts-card {
+  width: 550px;
+  min-height: auto;
+  background-color: #0073b1;
+  margin-top: 30px;
+  border: 2px solid #ee00ff;
+  border-radius: 47px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+
+  .post-image-wrapper {
+    display: flex;
+    padding: 15px;
+    gap: 10px;
+    position: relative;
+  }
+
+  .profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .name {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    color: yellow;
+    font-weight: 1000;
+    margin: 0;
+    cursor: pointer;
+  }
+
+  .headline {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    //color: #ee00ff;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .timestamp {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 400;
+    margin: 0;
+  }
+
+  .status {
+    text-align: left;
+    margin: 10px 0 0 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: 400;
+    color:black;
+  }
+}
+
+.action-container {
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+  display: flex;
+  top: 10px;
+
+  .action-icon {
+    color: gray;
+    padding: 10px;
+  }
+
+  .action-icon:hover {
+    color: #000000;
+    background-color: #b7b7b7;
+    padding: 10px;
+    border-radius: 50%;
+  }
+}
+
+.post-image {
+  cursor: pointer;
+  width: 100%;
+  //color: blue;
+}
+
+.modal {
+  margin-top: 30px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .posts-card {
+    width: 100%;
+    border-radius: 30px;
+  }
+
+  .post-image-wrapper {
+    padding: 10px;
+    gap: 5px;
+  }
+
+  .profile-image {
+    width: 40px;
+    height: 40px;
+  }
+
+  .name {
+    font-size: 12px;
+  }
+
+  .headline {
+    font-size: 14px;
+  }
+
+  .timestamp {
+    font-size: 10px;
+  }
+
+  .status {
+    font-size: 16px;
+  }
+
+  .action-container {
+    top: 5px;
+
+    .action-icon {
+      padding: 8px;
+    }
+
+    .action-icon:hover {
+      padding: 8px;
+    }
+  }
+}
+
+
+
+
+@media only screen and (min-width: 601px) {
+  .posts-card {
+    width: 550px;
+    min-height: auto;
+    background-color: #0073b1;
+    margin-top: 30px;
+   // border: 1px solid #ee00ff;
+    border-radius: 47px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+
+    .post-image-wrapper {
+      display: flex;
+      padding: 15px;
+      gap: 10px;
+      position: relative;
+    }
+
+    .profile-image {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .name {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 13px;
+      color: peru;
+      font-weight: 1000;
+      margin: 0;
+      cursor: pointer;
+    }
+
+    .headline {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 15px;
+      color: gray;
+      font-weight: 500;
+      margin: 0;
+    }
+
+    .timestamp {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 12px;
+      color: rgba(0, 0, 0, 0.6);
+      font-weight: 400;
+      margin: 0;
+    }
+
+    .status {
+      text-align: left;
+      margin: 10px 0 0 10px;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 18px;
+      font-weight: 400;
+      color: black;
+    }
+  }
+
+  .action-container {
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+    display: flex;
+    top: 10px;
+
+    .action-icon {
+      color: gray;
+      padding: 10px;
+    }
+
+    .action-icon:hover {
+      color: #000000;
+      background-color: #ee00ff;
+      padding: 10px;
+      border-radius: 50%;
+    }
+  }
+
+  .post-image {
+    cursor: pointer;
+    width: 100%;
+    //color: blue;
+  }
+
+  .modal {
+    margin-top: 30px;
+  }
+}
+
+
+
+
+
+/*.posts-card {
+    width: 550px;
+    min-height: auto;
+    background-color: teal;
+    margin-top: 30px;
+    border: 1px solid gray;
+    border-radius: 47px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    .post-image-wrapper {
+      display: flex;
+      padding: 15px;
+      gap: 10px;
+      position: relative;
+    }
+    .profile-image {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+  
+    .name {
+      font-family:'Courier New', Courier, monospace;
+      font-size: 13px;
+      color: #212121;
+      font-weight: 1000;
+      margin: 0px 0 0 0px;
+      cursor: pointer;
+    }
+    .headline {
+      font-family:'Courier New', Courier, monospace;
+      font-size: 15px;
+      color: gray;
+      font-weight: 500;
+      margin: 0px 0 0 0px;
+    }
+    .timestamp {
+      font-family:'Courier New', Courier, monospace;
+      font-size: 12px;
+      color: rgba(0, 0, 0, 0.6);
+      font-weight: 400;
+      margin: 0px 0 0 0px;
+    }
+  
+    .status {
+      text-align: left;
+      margin: 10px 0 0 10px;
+      font-family:'Courier New', Courier, monospace;
+      font-size: 18px;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.9);
+    }
+  }
+  
+  .action-container {
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+    display: flex;
+    top: 10px;
+    .action-icon {
+      color: gray;
+      padding: 10px;
+    }
+  
+    .action-icon:hover {
+      color: #000000;
+      background-color: #b7b7b7;
+      padding: 10px;
+      border-radius: 50%;
+    }
+  }
+  
+  .post-image {
+    cursor: pointer;
+    width: 100%;
+    //color: blue;
+  }
+  
+  .modal {
+    margin-top: 30px;
+   
+  } */

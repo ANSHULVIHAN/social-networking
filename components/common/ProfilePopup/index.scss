@@ -1,0 +1,39 @@
+.but1{
+  color: whitesmoke;
+ }
+
+.popup-card {
+    border: 5px solid #ee00ff;
+    width: 5%;
+    max-width: 1px; 
+    display:flex;
+    justify-content: center;
+    //flex-direction:row;
+    align-items:flex-start; 
+    padding: 15px;
+    margin-top: -5-5-5px; 
+  }
+ 
+
+
+/* Styles for tablets and smaller devices */
+@media (max-width: 768px) {
+  .popup-card {
+    font-size: 14px; /* Example: Adjust font size for better readability on smaller screens */
+  }
+}
+
+/* Styles for phones and smaller devices */
+@media (max-width: 480px) {
+  .popup-card {
+    font-size: 12px; /* Example: Further reduce font size for smaller screens */
+  }
+
+  /* For example, if you want to adjust the buttons' width for small devices: */
+  .popup-card .buton {
+    width: 100%; /* Make the buttons take full width on phones */
+  }
+}
+
+
+

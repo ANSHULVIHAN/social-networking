@@ -1,0 +1,21 @@
+/* term.scss */
+
+/* Styling for large screens (desktop) */
+.terms-container {
+    max-width: 1200px; /* Set a maximum width for larger screens */
+    margin: 0 auto; /* Center the content horizontally */
+    padding: 20px; /* Add some padding for better readability */
+  color: whitesmoke;
+    /* Add any other desktop-specific styles here */
+  }
+  
+  /* Styling for small screens (mobile) */
+  @media (max-width: 767px) {
+    .terms-container {
+      padding: 10px; /* Reduce padding for smaller screens */
+  color: whitesmoke;
+  font-size: 16px;
+      /* Add any other mobile-specific styles here */
+    }
+  }
+  

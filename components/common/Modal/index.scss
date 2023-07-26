@@ -1,0 +1,131 @@
+/* index.scss */
+
+/* Common styles for both mobile and desktop */
+.modal-input {
+  border: none !important;
+  background-color: whitesmoke;
+  outline: none;
+  color: blue;
+  font-size: 16px;
+  font-family: 'Courier New', Courier, monospace;
+  width: 100%;
+  border-radius: 100px;
+  resize: none;
+}
+
+.ql-container.ql-snow,
+.ql-toolbar.ql-snow {
+  border: none !important;
+}
+
+.ql-container.ql-snow {
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.picture-icon {
+  color: #ee00ff;
+  cursor: pointer;
+  position: absolute;
+  bottom: 20px;
+}
+
+.preview-image {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.posts-body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ee00ff  ;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 600px) {
+  .modal-input {
+    font-size: 14px;
+  }
+
+  .ql-container.ql-snow {
+    font-size: 16px;
+  }
+
+  .picture-icon {
+    bottom: 10px;
+  }
+
+  .preview-image {
+    margin-top: 10px;
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 601px) {
+  .modal-input {
+    font-size: 16px;
+  }
+
+  .ql-container.ql-snow {
+    font-size: 20px;
+  }
+
+  .picture-icon {
+    bottom: 20px;
+  }
+
+  .preview-image {
+    margin-top: 20px;
+  }
+}
+
+
+
+
+
+
+
+/*.modal-input {
+    border: none !important;
+    background-color: whitesmoke;
+    outline: none;
+    color:blue;
+    font-size: 16px;
+    font-family:'Courier New', Courier, monospace;
+    width: 100%;
+    border-radius: 100px;
+    resize: none;
+  }
+  
+  .ql-container.ql-snow,
+  .ql-toolbar.ql-snow {
+    border: none !important;
+    
+  }
+  
+  .ql-container.ql-snow {
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+  }
+  
+  .picture-icon {
+    color: gray;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+  }
+  
+  .preview-image {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .posts-body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: teal;
+  } */

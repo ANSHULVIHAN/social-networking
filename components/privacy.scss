@@ -1,0 +1,23 @@
+/* Common styles for both mobile and desktop */
+.privacy-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Mobile styles - Adjust as per your design */
+  @media screen and (max-width: 767px) {
+    .privacy-content {
+      font-size: 15px;
+      color: black;
+    }
+  }
+  
+  /* Desktop styles - Adjust as per your design */
+  @media screen and (min-width: 768px) {
+    .privacy-content {
+      font-size: 16px;
+      color: black;
+    }
+  }
+  

@@ -1,0 +1,264 @@
+/* Base styles for the top bar */
+.topbar-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0073b1;
+  padding: 10px;
+  box-shadow: 0 2px 4px pink;
+}
+
+/* LinkedIn logo */
+.linkedin-logo {
+  width: 70px;
+  height: 70px;
+}
+
+/* Menu icon (three horizontal bars) for mobile */
+.menu-icon {
+  display: none;
+  color: pink; /* Hide the menu icon by default on larger screens */
+}
+
+/* Icons container for desktop */
+.topbar-icons {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Add some gap between the icons */
+}
+
+/* Style for individual icons */
+.topbar-icons .react-icons1 {
+  margin-right: 15px; /* Add some spacing between the icons */
+  cursor: pointer;
+  color: pink; /* Set icons color to teal */
+}
+
+/* Icons container for mobile (hidden by default) */
+.topbar-icons-mobile {
+  display: none;
+}
+
+/* User logo */
+.user-logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Media query for mobile responsiveness */
+@media (max-width: 768px) {
+  /* Show the menu icon on smaller screens */
+  .menu-icon {
+    display: flex;
+    cursor: pointer;
+  }
+
+  /* Hide the icons container for desktop on smaller screens */
+  .topbar-icons {
+    display: none;
+  }
+
+  /* Show the icons container for mobile on smaller screens */
+  .topbar-icons-mobile {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Add some gap between the icons */
+  }
+
+  /* Style for individual icons in mobile view */
+  .topbar-icons-mobile .react-icons1 {
+    margin-right: 10px; /* Add some spacing between the icons */
+    color: pink; /* Set icons color to teal */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+.topbar-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0073b1;
+  color: white;
+  padding: 0.5rem 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  transition: all 0.3s ease;
+}
+
+.linkedin-logo {
+  height: 30px;
+  cursor: pointer;
+}
+
+.menu-icon {
+  display: none; 
+  cursor: pointer;
+}
+
+.menu-icon.menu-open .bar1,
+.menu-icon.menu-open .bar2,
+.menu-icon.menu-open .bar3 {
+  background-color: white;
+}
+
+.react-icons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.react-icons1 {
+  cursor: pointer;
+}
+
+.user-logo {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+
+
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block; 
+  }
+
+  .react-icons {
+    display: none; 
+  }
+
+  .topbar-main.menu-open {
+    height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 3rem;
+  }
+
+  .topbar-main.menu-open .react-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .topbar-main.menu-open .react-icons .react-icons1 {
+    margin-bottom: 1rem; 
+  }
+}
+
+
+
+
+
+/*
+
+.topbar-main {
+    width: 100%;
+    height: 70px;
+    background-color: #808080;
+    display: flex;
+    align-items: center;
+  }
+  .linkedin-logo {
+    width: 65px;
+    margin-left: 0px;
+  }
+  .react-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 55%;
+    margin-left: 30px;
+   
+  }
+  
+  .react-icons {
+    color:hwb(0 0% 54%) ;
+    cursor: pointer;
+   
+  }
+  .react-icons1{
+    color: pink;
+   // height: 10px;
+    width: 100px;
+  }
+  
+  .react-icon:hover {
+    color: black;
+  }
+  
+  .user-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    right: 30px;
+    cursor: pointer;
+  }
+  
+  .popup-position {
+    position: absolute;
+    right: 10px;
+    top: 65px;
+    z-index: 99;
+  }
+  
+  .search-results {
+    position: absolute;
+    left: 100px;
+    top: 60px;
+    width: 240px;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #bbbbbb;
+  
+    .search-inner {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 10px;
+      img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+  
+      .name {
+        font-family: system-ui;
+        font-size: 18px;
+      }
+    }
+  
+    .search-inner:hover {
+      background-color: #bbbbbb;
+    }
+  } 
+ */
+
+
+
+
+

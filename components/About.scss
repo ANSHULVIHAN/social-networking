@@ -1,0 +1,77 @@
+/* About.scss */
+
+.container {
+  max-width: 800px; /* Adjust the max width to fit your design */
+  margin: 0 auto;
+  padding: 20px;
+}
+.container7{
+  font-size: 16px;
+  color: yellowgreen;
+}
+
+h1 {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 aspect ratio for the video container */
+  margin-top: 20px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* Media Queries for Responsive Layout */
+
+/* For devices with screen size up to 768px (e.g., mobile phones) */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 18px;
+  }
+}
+
+/* For devices with screen size between 769px and 1024px (e.g., tablets) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container1 {
+    padding: 10px;
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 18px;
+  }
+}
+
+/* For devices with screen size above 1024px (e.g., desktops and laptops) */
+@media (min-width: 1025px) {
+  .container {
+    padding: 20px;
+  }
+}

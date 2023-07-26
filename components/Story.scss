@@ -1,0 +1,65 @@
+/* Assuming you have a CSS file for styling, let's call it StoryComponent.css */
+
+.container2 {
+    max-width: 800px; /* Adjust the max width to fit your design */
+    margin: 0 auto;
+    padding: 20px;
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+  }
+.head{
+    color: skyblue;
+    font-size: 20px;
+}
+  h1 {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: aliceblue;
+  }
+  
+  .paragraph-container {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: aquamarine;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .paragraph-container p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: purple;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  /* Media Queries for Responsive Layout */
+  
+  /* For devices with screen size up to 768px (e.g., mobile phones) */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 22px;
+    }
+    .paragraph-container p {
+      font-size: 16px;
+    }
+  }
+  
+  /* For devices with screen size between 769px and 1024px (e.g., tablets) */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .container {
+      padding: 10px;
+    }
+    h1 {
+      font-size: 24px;
+    }
+  }
+  
+  /* For devices with screen size above 1024px (e.g., desktops and laptops) */
+  @media (min-width: 1025px) {
+    .container {
+      padding: 20px;
+    }
+  }
+  
